@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cours</title>
+</head>
+<body>
+<h1>bienvenue dans Spring boot</h1>
+<p><a href="cours/tous">voir tous les cours</a></p>
+
+<p>
+<h3>Create</h3>
+<form action="cours/create" methode="get">
+    code: <input type="text" name="code"><br>
+    intitulé: <input type="text" name="intitule"><br>
+    <input type="submit" name="ok" value="ok">
+</form>
+</p>
+
+<p>
+<h3>Update</h3>
+<form action="cours/update" methode="get">
+    id cours : <input type="number" name="idCours">
+    nouveau code: <input type="text" name="code"><br>
+    nouveau intitulé: <input type="text" name="intitule"><br>
+    <input type="submit" name="ok" value="ok">
+</form>
+</p>
+
+<p>
+<h3>Research</h3>
+<form action="cours/research" methode="get">
+    id cours : <input type="number" name="idCours">
+    <input type="submit" name="ok" value="ok">
+</form>
+</p>
+
+<p>
+<h3>Delete</h3>
+<form action="cours/delete" methode="get">
+    id cours : <input type="number" name="idCours">
+    <input type="submit" name="ok" value="ok">
+</form>
+</p>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nouveau Cours</title>
+</head>
+<body>
+<table border="1">
+  <th>ID</th>
+  <th>CODE</th>
+  <th>INTITULE</th>
+  <tr>
+    <td th:text="${nouvcours.idcours}"/>
+    <td th:text="${nouvcours.code}"/>
+    <td th:text="${nouvcours.intitule}"/>
+  </tr>
+</table>
+<a href="/">retour</a>
+</body>
+</html>
